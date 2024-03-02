@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: #F7DED0;
+  color: #fff;
+}
+
+.container{
+  max-width: 600px;
+  margin: 40px auto;
+  overflow: auto;
+  min-height: 400px;
+  background: #070f2b;
+  border: 6px solid #9290C3;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  border: 2px solid #9290C3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1{
+  color: #F7DED0;
+}
+
+.btn{
+  display: inline-block;
+  background: #9290C3;
+  color: #070f2b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+.add-form{
+  margin-bottom: 40px;
+  transition: 1s ease-in;
+}
+
+.form-control{
+  margin: 20px 0;
+}
+
+.form-control label{
+  display: block;
+  color: #F7DED0;
+  font-weight: bold;
+}
+
+.form-control input{
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 3px 7px;
+  margin: 5px 0;
+}
+
+.checked{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checked label{
+  flex: 1;
+}
+
+.checked input{
+  flex: 2;
+  height: 20px;
+}
+
+.form-btn{
+  width: 100%;
+}
+
+.event{
+  background: #E493B3;
+  color: #070f2b;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.event:nth-child(3n + 1){
+  background: #15F5BA;
+}
+
+.event:nth-child(3n + 2){
+  background: #6C22A6;
+}
+
+.event h3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.event.reminder{
+  border-left: 5px solid #16FF00;
+}
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+  color: #F7DED0;
+}
+
+a{
+  color: #39B5E0;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
